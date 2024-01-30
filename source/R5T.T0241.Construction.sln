@@ -7,7 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0241.Construction", "R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0241", "R5T.T0241\R5T.T0241.csproj", "{CC6B0437-FC40-435D-94FA-B47FF8F3513E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{2764427B-573A-4524-BB72-97FE5EFA67F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0143", "..\..\R5T.T0143\source\R5T.T0143\R5T.T0143.csproj", "{ACA2F89F-2756-44C7-9D00-E1F0EAC23A12}"
+EndProject
 Global
+	GlobalSection(NestedProjects) = preSolution
+		{ACA2F89F-2756-44C7-9D00-E1F0EAC23A12} = {2764427B-573A-4524-BB72-97FE5EFA67F4}
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -21,6 +28,10 @@ Global
 		{CC6B0437-FC40-435D-94FA-B47FF8F3513E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC6B0437-FC40-435D-94FA-B47FF8F3513E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC6B0437-FC40-435D-94FA-B47FF8F3513E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACA2F89F-2756-44C7-9D00-E1F0EAC23A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA2F89F-2756-44C7-9D00-E1F0EAC23A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA2F89F-2756-44C7-9D00-E1F0EAC23A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA2F89F-2756-44C7-9D00-E1F0EAC23A12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
